@@ -13,11 +13,16 @@ Welcome to **cub3d**, a 3D game project developed at École 42! This project is 
 
 ---
 
+## 🛠️ Prérequis
+- Linux avec X11
+- [MiniLibX](https://github.com/42Paris/minilibx-linux) et ses dépendances :
+  - `libxext-dev`, `libx11-dev`, `libbsd-dev`, `libmpg123-dev`, `libpng-dev`, `zlib1g-dev`
+
 ## 🛠️ Installation
 1. **Clone the repository**
    ```sh
-git clone <your_repo_url>
-cd git_perso
+git clone https://github.com/DamienLoisel/cub3d.git
+cd cub3d
 ```
 2. **Build the project**
    ```sh
@@ -51,5 +56,3 @@ bonus/          # Source code for bonus features
 maps/           # Example map files
 Makefile        # Build system
 ```
-
----
