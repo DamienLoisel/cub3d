@@ -20,17 +20,17 @@ Welcome to **cub3d**, a 3D game project developed at École 42! This project is 
 
 ## 🛠️ Installation
 1. **Clone the repository**
-   ```sh
+```sh
 git clone https://github.com/DamienLoisel/cub3d.git
 cd cub3d
 ```
 2. **Build the project**
-   ```sh
+```sh
 make        # For mandatory version
 make bonus  # For bonus version
 ```
 3. **Run the game**
-   ```sh
+```sh
 ./cub3d <map_file>
 ./cub3d_bonus <map_file>   # For bonus
 ```
